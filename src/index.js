@@ -27,7 +27,7 @@ class ServerlessAppSyncSimulator {
     this.simulators = null;
 
     addDataLoader('HTTP', HttpDataLoader);
-    addDataLoader('AMAZON_ELASTICSEARCH', ElasticDataLoader);
+    addDataLoader('AMAZON_ELASTICSEARCH_TEST', ElasticDataLoader);
     addDataLoader('RELATIONAL_DATABASE', RelationalDataLoader);
 
     this.hooks = {
